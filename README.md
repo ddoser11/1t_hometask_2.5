@@ -26,8 +26,8 @@ income_fact/income_plan — отношение фактического дохо
 
 # 1t_hometask_2.5 - SOLVING
 1.В первой части не хватает таблицы с id магазина и названия магазина
-2.
 
+2.
 ALTER TABLE shop_dns add shop_name CHARACTER VARYING(20) DEFAULT 'shop_dns';
 ALTER TABLE shop_mvideo add shop_name CHARACTER VARYING(20) DEFAULT 'shop_mvideo';
 ALTER TABLE shop_sitilink add shop_name CHARACTER VARYING(20) DEFAULT 'shop_sitilink';
